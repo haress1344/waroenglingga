@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Import materialize.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Import Icon -->
+  <link rel="shorcut icon" type="x-icon" href="assets/img/iconmonstr-eat-8-240.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>waroeng.LINGGA</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+
+  <div class="navbar-fixed">
+    <nav class="grey darken-4">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#home" class="brand-logo">warung.LINGGA</a>
+          <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#tentang-kami">Tentang Kami</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#lokasi">Lokasi</a></li>
+            <li><a href="#kontak">Hubungi Kami</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Akhir Navbar -->
+
+  <!-- SideNav -->
+
+  <ul class="sidenav" id="mobile-nav">
+    <li><a href="#tentang-kami">Tentang Kami</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#lokasi">Lokasi</a></li>
+    <li><a href="#kontak">Hubungi Kami</a></li>
+  </ul>
+
+  <!-- Akhir SideNav -->
+
+  <!-- Slider -->
+
+  <div class="slider scrollspy" id="home">
+    <ul class="slides">
+      <li>
+        <img src="assets/img/pesan-parallax2.png" />
+        <div class="caption center-align">
+          <h1>Warung Lingga!</h1>
+        </div>
+      </li>
+      <li>
+        <img src="assets/img/pesan-parallax.png" />
+        <div class="caption right-align">
+          <h3>Masakan Khas!</h3>
+          <h5 class="light grey-text text-lighten-3">
+            Hadir dengan citarasa khas keluarga.
+          </h5>
+        </div>
+      </li>
+      <li>
+        <img src="assets/img/pesan-parallax3.png" />
+        <div class="caption left-align">
+          <h3>Pujasera Satu-satunya!</h3>
+          <h5 class="light grey-text text-lighten-3">
+            Menu utama lezat dengan harga ramah dompet keluarga.
+          </h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Akhir Slider -->
+
+  <!-- Tentang Kami -->
+
+  <section class="tentang-kami grey darken-2 scrollspy" id="tentang-kami">
+    <div class="container">
+      <div class="row">
+        <div class="border-bawah col m12 s12">
+          <h3 class="center grey-text text-lighten-3">Tentang Kami</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div data-aos="fade-right">
+          <div class="col l6 m12 s12">
+            <div class="card-panel center">
+              <img class="responsive-img" src="assets/img/Warung Lingga Edited.png"/>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-left">
+          <div class="col l6 m12 s12 grey-text text-lighten-3">
+            <div class="card-panel" style="text-align: justify;">
+              <p class="white-text">
+              Warung Lingga merupakan satu - satunya warung yang menyediakan berbagai aneka menu dengan
+              menu utama Ayam Goreng Laos, Sup Iga dan Iga Bakar lezat di Pujasera Elang dengan harga
+              yang nyaman untuk keluarga. Berdiri pada tahun 2022, Warung
+              Lingga mengutamakan citarasa khas masakan keluarga. Dengan
+              Resep bumbu keluarga yang meresap ke dalam setiap masakannya,
+              Warung Lingga mampu menambahkan suasana keluarga ke dalam
+              setiap citarasa masakannya.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Akhir Tentang Kami -->
+
+  <!-- Mengapa Kami ? -->
+
+  <div class="parallax-container opini">
+    <div class="parallax">
+      <img src="assets/img/pesan-parallax2.png" />
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="border-bawah col m12 s12">
+          <h3 class="center white-text text-darken-3">Mengapa Kami ?</h3>
+        </div>
+        <div class="col m4 s12 center">
+          <div data-aos="fade-right">
+            <div class="card-panel">
+              <h4 class="center white-text text-darken-3">1</h4>
+              <p class="white-text center">
+                Bumbu lebih terasa karena menggunakan resep keluarga sendiri,
+                serta daging fresh yang diolah sendiri.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col m4 s12 center">
+          <div class="card-panel">
+            <h4 class="center white-text text-darken-3">2</h4>
+            <p class="white-text center">
+              Citarasa yang mampu melengkapi suasana berkumpul bersama.
+            </p>
+          </div>
+        </div>
+        <div class="col m4 s12 center">
+          <div data-aos="fade-left">
+            <div class="card-panel">
+              <h4 class="center white-text text-darken-3">3</h4>
+              <p class="white-text center">
+                Tempat yang nyaman dan ramah dompet untuk keluarga, teman,
+                serta sanak saudara.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Menu -->
+
+  <section class="menu grey darken-2 scrollspy" id="menu">
+    <div class="container">
+      <div class="row">
+        <div class="border-bawah col m12 s12">
+          <h3 class="center grey-text text-lighten-3">Menu Utama</h3>
+
+        </div>
+        <div data-aos="fade-right">
+          <div class="col m6 s12">
+            <div class="card grey lighten-1">
+              <div class="card-image">
+                <img class="responsive-img" src="assets/img/Foto Makanan/ayam-goreng-laos.png" />
+                <div class="card-title">Ayam Goreng Laos</div>
+              </div>
+              <div class="card-content">
+                <p class="center">
+                  Ayam goreng dengan bumbu laos khas resep racikan keluarga yang halus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-left">
+          <div class="col m6 s12">
+            <div class="card grey lighten-1">
+              <div class="card-image">
+                <img class="responsive-img" src="assets/img/Ayam Bakar.jpeg" />
+                <div class="card-title">Ayam Bumbu Bakar</div>
+              </div>
+              <div class="card-content">
+                <p class="center">
+                  Daging ayam yang dibakar dengan olesan bumbu bakar khas keluarga di setiap dagingnya.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div data-aos="fade-right">
+          <div class="col m6 s12">
+            <div class="card grey lighten-1">
+              <div class="card-image">
+                <img class="responsive-img" src="assets/img/Iga Bakar.jpeg" />
+                <div class="card-title">Iga Bakar</div>
+              </div>
+              <div class="card-content">
+                <p class="center">
+                  Daging Iga Sapi yang dibakar dengan olesan bumbu bakar iga bakar khas keluarga di setiap dagingnya.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-left">
+          <div class="col m6 s12">
+            <div class="card grey lighten-1">
+              <div class="card-image">
+                <img class="responsive-img" src="assets/img/Sup Iga.jpeg" />
+                <div class="card-title">Sup Iga</div>
+              </div>
+              <div class="card-content">
+                <p class="center">
+                  Sup dengan daging iga sapi yang lezat ala resep rahasia <br> keluarga.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div data-aos="fade-right">
+          <div class="col m6 s12">
+            <div class="card grey lighten-1">
+              <div class="card-image">
+                <img class="responsive-img" src="assets/img/Sup Buntut.jpeg" />
+                <div class="card-title">Sup Buntut</div>
+              </div>
+              <div class="card-content">
+                <p class="center">
+                  I am a very simple card. I am good at containing small bits
+                  of information. I am convenient because I require little
+                  markup to use effectively.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-left">
+          <div class="col m6 s12">
+            <div class="card grey lighten-1">
+              <div class="card-image">
+                <img class="responsive-img" src="assets/img/Kaldu Kikil.jpeg" />
+                <div class="card-title">Kaldu Kikil</div>
+              </div>
+              <div class="card-content">
+                <p class="center">
+                  I am a very simple card. I am good at containing small bits
+                  of information. I am convenient because I require little
+                  markup to use effectively.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Akhir Menu -->
+
+  <!-- Pesan -->
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="assets/img/pesan-parallax2.png" />
+    </div>
+    <div class="container pesan">
+      <div class="row">
+        <div class="border-bawah col m12 s12">
+          <h3 class="center white-text text-darken-3">Yuk, Pesan Antar</h3>
+
+        </div>
+        <div class="col m4 s12 center">
+          <img class="responsive-img" src="assets/img/Logo GoFood (PNG-480p) - FileVector69 (1).png" alt="" />
+        </div>
+        <div class="col m4 s12 center">
+          <img class="responsive-img" src="assets/img/GrabFood Logo (PNG-480p) - Vector69Com.png" alt="" />
+        </div>
+        <div class="col m4 s12 center">
+          <img class="responsive-img" src="assets/img/Shopee Food Logo (PNG480p) - Vector69Com.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Akhir Pesan -->
+
+  <!-- Lokasi -->
+
+  <section class="lokasi grey darken-2 scrollspy" id="lokasi">
+    <div class="container">
+      <div class="row">
+        <div class="border-bawah col m12 s12">
+          <h3 class="center grey-text text-lighten-3">Tempat Kami</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col l6 m12 s12">
+          <div class="card-panel center">
+            <img class="responsive-img" src="assets/img/Warung Lingga Edited.png" />
+          </div>
+        </div>
+        <div data-aos="fade-left">
+          <div class="col l3 m6 s6">
+            <img class="responsive-img alamat-img right" src="assets/img/Gmap.png" alt="" />
+          </div>
+          <div class="col l3 m6 s6">
+            <h5 class="left">Pujasera Jl. Wiratno no. 1, Surabaya</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Akhir Lokasi -->
+
+  <!-- Kontak -->
+
+  <div class="parallax-container kontak scrollspy" id="kontak">
+    <div class="parallax">
+      <img src="assets/img/pesan-parallax2.png" />
+    </div>
+    <div class="container">
+      <div class="card-panel">
+
+        <div class="border-bawah center col m12 s12">
+          <h4 class="white-text text-darken-3">Hubungi Kami</h4>
+        </div>
+        <div class="border-bawah">
+          <div class="row">
+            <div class="kontak-icon col l6 m6 s6">
+              <img class="responsive-img right" src="assets/img/Whatsapp Icon.png" alt="" />
+            </div>
+            <div class="ket-icon col l6 m6 s6">
+              <p class="white-text text-darken-3 ">082140513398</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12">
+          <h6 class="white-text text-darken-3 center">Terima Pesanan Nasi Kotak</h6>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Akhir Kontak -->
+
+  <!-- Footer -->
+
+  <div class="page-footer footer grey darken-4">
+    <div class="container grey-text text-lighten-2">
+      <p><i class="fa fa-copyright"></i> 2022 Haris Dwi Nur Almaas</p>
+    </div>
+  </div>
+
+  <!-- Akhir Footer -->
+
+  <!--JavaScript at end of body for optimized loading-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    const sideNav = document.querySelectorAll(".sidenav");
+    M.Sidenav.init(sideNav);
+
+    const slider = document.querySelectorAll(".slider");
+    M.Slider.init(slider, {
+      indicators: false,
+      height: 450,
+      interval: 3000,
+    });
+
+    const parallax = document.querySelectorAll(".parallax");
+    M.Parallax.init(parallax);
+
+    const materialbox = document.querySelectorAll(".materialboxed");
+    M.Materialbox.init(materialbox);
+
+    const scrollspy = document.querySelectorAll(".scrollspy");
+    M.ScrollSpy.init(scrollspy, {
+      scrollOffset: 50,
+    });
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

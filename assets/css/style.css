@@ -1,0 +1,84 @@
+.slider h3,
+.slider h5,
+.pesan h3,
+.pesan hr {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+section {
+  padding: 20px 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.border-bawah {
+  border-bottom: 4px solid #e6e6e6;
+  margin-bottom: 20px;
+}
+
+.tentang-kami .card-panel {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.menu .card {
+  border-radius: 25px;
+}
+.menu .card-title {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.parallax-container {
+  height: 40%;
+}
+.parallax img {
+  filter: brightness(0.5);
+  filter: grayscale(0.2);
+}
+.pesan img {
+  width: 150px;
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
+  margin-bottom: 25px;
+}
+
+.lokasi .alamat-img {
+  width: 250px;
+}
+
+.card-panel {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.kontak .card-panel {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.lokasi .alamat-img,
+.lokasi h5,
+.kontak img,
+.kontak p {
+  display: inline-block;
+}
+
+.kontak img {
+  width: 80px;
+}
+
+.footer {
+  min-height: 80px;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+}
+.kontak p {
+  font-size: 20px;
+}
+
+.lokasi h5 {
+  padding-top: 117px;
+}
+
+.lokasi .alamat-img {
+  padding-top: 50px;
+}
